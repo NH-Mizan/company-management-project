@@ -1,61 +1,67 @@
 /* common  css  */
-a{
+a {
     text-decoration: none;
 }
 
 
-ul{
+ul {
     margin: 0;
-    padding:0;
+    padding: 0;
 }
- li{
+
+li {
     list-style: none;
-    
- }
+
+}
 
 
- .header-inner{
+.header-inner {
     padding: 10px 0;
- }
-.social-icon{
+}
+
+.social-icon {
     text-align: right;
 }
 
- .social-info ul li{
+.social-info ul li {
     display: inline-block;
-    
- }
 
-.social-info a{
-  margin-right: 25px ;
-  color: black;
-  font-weight: 600;
-    
 }
-.social-info svg{
+
+.social-info a {
+    margin-right: 25px;
+    color: black;
+    font-weight: 600;
+
+}
+
+.social-info svg {
     color: #27bbf0;
 }
-.social-icon ul li{
-   display: inline-block;
+
+.social-icon ul li {
+    display: inline-block;
     gap: 5px;
 }
-.social-icon svg{
+
+.social-icon svg {
     color: #27bbf0;
     border: 2px solid #27bbf0;
     border-radius: 50%;
     width: 18px;
     height: 18px;
-    padding:5px;
-   
+    padding: 5px;
+
 }
-.logo-area img{
+
+.logo-area img {
     width: 120px;
 }
 
 /* ============= */
 .main-nav ul li {
     display: inline-block;
-   
+
 }
 
 .main-nav .menu li {
@@ -63,16 +69,18 @@ ul{
     padding: 18px 0;
 }
 
-.main-nav .menu > li > a {
-    
+.main-nav .menu>li>a {
+
     padding: 15px 15px;
     font-weight: bold;
-    color: white;
+    color: #ffffff;
     transition: 0.3s;
 }
-.menu{
+
+.menu {
     text-align: right;
 }
+
 /* Dropdown Submenu */
 .submenu {
     position: absolute;
@@ -81,8 +89,8 @@ ul{
     margin-top: 50px;
     background: #f6dbdb;
     width: 300px;
-    
- 
+
+
     /* display: none; */
     z-index: 999;
     text-align: left;
@@ -92,7 +100,7 @@ ul{
 }
 
 .submenu li a {
-   
+
     color: #333;
     font-weight: 500;
 
@@ -101,13 +109,13 @@ ul{
 
 .submenu li a:hover {
     background-color: #0056b3;
-   
-    color: white;
+
+    color: #ffffff;
 }
 
 /* Show Submenu on Hover */
 .dropdown:hover .submenu {
-    margin-top:0;
+    margin-top: 0;
     visibility: visible;
     opacity: 1;
 }
@@ -116,12 +124,42 @@ ul{
 .fa-caret-down {
     margin-left: 5px;
 }
+
 ul.submenu li {
     display: block;
     padding: 0 !important;
 }
+
 ul.submenu li a {
     display: block;
     width: 100%;
     padding: 10px;
+}
+
+
+
+button.owl-prev,
+button.owl-next {
+    position: absolute;
+    top: 50%;
+    background-color: #f0f8ff !important;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px !important;
+}
+button.owl-prev:hover,
+button.owl-next:hover{
+    background-color: #27bbf0 !important;
+}
+button.owl-prev {
+    left: 50px !important;
+}
+
+button.owl-next {
+    right: 50px !important;
+
+
+}
+button svg{
+    font-size: 20px;
 }

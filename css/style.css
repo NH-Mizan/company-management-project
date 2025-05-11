@@ -1,0 +1,41 @@
+/* common  css  */
+a{
+    text-decoration: none;
+}
+
+
+
+ li{
+    list-style: none;
+    
+ }
+.social-icon{
+    text-align: right;
+}
+ .social-info ul li{
+    display: inline-block;
+    
+ }
+
+.social-info a{
+  margin-right: 25px ;
+  color: black;
+  font-weight: 600;
+    
+}
+.social-info svg{
+    color: #27bbf0;
+}
+.social-icon ul li{
+   display: inline-block;
+    gap: 5px;
+}
+.social-icon svg{
+    color: #27bbf0;
+    border: 2px solid #27bbf0;
+    border-radius: 50%;
+    width: 18px;
+    height: 18px;
+    padding:5px;
+   
+}

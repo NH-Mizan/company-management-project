@@ -1,6 +1,7 @@
 /* common  css  */
 a {
     text-decoration: none;
+     
 }
 
 
@@ -79,6 +80,7 @@ li {
 
 .menu {
     text-align: right;
+
 }
 
 /* Dropdown Submenu */
@@ -165,12 +167,15 @@ button svg{
 }
 
 .about-mission-scetion{
-    margin-top: 60px;
+    margin-top: 50px;
 }
 .about-mission-title h2{
  font-weight: 800;
  margin-bottom: 5px;
  text-transform: uppercase;
+}
+.about-mission-info{
+    margin-bottom: 30px;
 }
 .about-mission-info span{
     color: #0056b3;
@@ -181,11 +186,75 @@ button svg{
     color: #f0f8ff;
     padding: 10px 15px;
     border-radius: 10px;
+    transition: all 0.3s;
+
 
 }
 .button button:hover{
     background-color: #000;
+    transition: all 0.3s;
 }
 .about-mission-img img{
     border-radius: 15px;
+    width: 100%;
+}
+
+/* products css start */
+.product-section{
+    margin-top: 50px;
+    background: linear-gradient(to top, #fff, #E7F9E7);
+    padding: 50px 0px;
+}
+
+.product-top{
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+}
+.product-tite-top h2{
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 700;
+
+}
+.product-tite-top  span{
+    color: #27bbf0;
+}
+.product-btn-top button{
+    background-color: #0056b3;
+    padding: 10px 15px;
+    border-radius: 6px;
+    border: none;
+    color: #E7F9E7;
+    font-weight: 600;
+    font-size: large;
+    transition: all 0.3s;
+}
+.product-btn-top button:hover{
+    background-color: #fff;
+    color: #0056b3;
+    border: 1px solid #0056b3;
+    transition: all 0.3s;
+
+}
+.product-card {
+    background-color: #fff;
+    padding: 10px;
+    border: 2px solid #27bbf0;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 20px;
+    
+}
+.product-card a img{
+    width: 100%;
+    border-radius: 10px;
+    height: 300px;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+.product-card a{
+    color: #000;
+    font-size: 20px;
+   
 }

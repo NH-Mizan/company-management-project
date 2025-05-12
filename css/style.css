@@ -320,3 +320,75 @@ button svg{
     margin-top: 10px;
     text-align: center;
 }
+
+/* Blog section start */
+.blog-section{
+    margin-top: 50px;
+    background: linear-gradient(to top, #fff, #E7F9E7);
+    padding: 50px 0px;
+}
+.blog-card{
+    /* border: 2px solid #0056b3; */
+    border-radius: 10px;
+    padding: 15px;
+    margin-top: 20px;
+    background-color: #fff;
+    box-shadow: 0 0  3px  #000;
+}
+.blog-card img{
+    height: 240px;
+}
+
+.blog-info .date {
+    background-color: #27bbf0;
+     color: #fff;
+     padding: 8px 10px;
+     text-align: center;
+     font-weight: bold;
+     margin-top: -20px;
+     height: 80px;
+     width: 80px;
+     margin-left: 30px;
+     border-radius: 5px;
+}
+.blog-info.date p{
+    margin-top: 10px;
+}
+
+.blog-info{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+  
+}
+.post-name p{
+   font-weight: bold;
+   font-size: 18px;
+   margin-left: 6px;
+   margin-top: 8px;
+    
+    
+}
+.blog-details h2 a{
+    color: #000;
+    font-weight: 700;
+    font-size: 22px;
+
+}
+.blog-details p{
+    font-size: 18px;
+    font-weight: 500;
+    color: #333;
+}
+.blog-details button{
+    border: 2px solid #27bbf0;
+    border-radius: 6px;
+    padding: 10px 15px;
+    font-weight: bold;
+    transition: all 0.3s;
+
+}
+.blog-details button:hover{
+    background-color: #27bbf0;
+    color: #fff;
+    transition: all 0.3s;
+}

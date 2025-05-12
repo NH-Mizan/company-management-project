@@ -14,7 +14,16 @@ li {
     list-style: none;
 
 }
+.title h2{
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 700;
+   
 
+}
+.title span{
+    color: #27bbf0;
+}
 
 .header-inner {
     padding: 10px 0;
@@ -211,16 +220,7 @@ button svg{
     justify-content: space-between ;
     align-items: center;
 }
-.product-tite-top h2{
-    font-size: 25px;
-    text-transform: uppercase;
-    font-weight: 700;
-    text-shadow: 0, 1 red;
 
-}
-.product-tite-top  span{
-    color: #27bbf0;
-}
 .product-btn-top button{
     background-color: #0056b3;
     padding: 10px 15px;
@@ -260,6 +260,9 @@ button svg{
     font-size: 20px;
    
 }
+
+/* our Serviecs css */
+
 .services-section{
     padding: 50px 0px;
     background-image: url(../images/1701691851-factory.jfif);
@@ -282,4 +285,15 @@ button svg{
 }
 .services-section h2{
     color: #fff;
+}
+
+/* why chooes css */
+
+.why-chooes-section{
+    margin-top: 50px;
+}
+.why-chooes p {
+    font-weight: 700;
+    font-size: 18px;
+    margin: 25px 0px;
 }
